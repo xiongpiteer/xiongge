@@ -1,0 +1,258 @@
+*{
+	margin: 0;padding: 0;
+}
+.clear:after{
+	content: ",";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.w1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #323232;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+.left{
+	float: left;
+}
+.right{
+	float:right;
+}
+img{
+	vertical-align: top;
+}
+
+
+
+
+.header_right>li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 25px;
+	text-align: center;
+}
+.header_right li:last-child{
+	margin: 0 0 0 25px;
+}
+.header_right>li a{
+	padding-bottom: 6px;
+}
+.header_right>li a:hover{
+	border-bottom: 2px solid #fc7863;
+}
+.bodyer1{
+	position: relative;
+}
+.bodyer1 button{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border: 1px solid #333;
+	font-size: 20px;
+	outline: none;
+}
+.bodyer1 button:hover{
+	background:#999;
+}
+.bodyer1 button:nth-of-type(1){
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	margin-top: -40px;
+}
+.bodyer1 button:nth-of-type(2){
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	margin-top: -40px;
+}
+.bodyer1 img{
+	width: 100%;
+}
+.bodyer2 .w1200{
+	padding-bottom: 4px;
+	border-bottom:1px solid #666;
+	font-size: 14px;
+	margin-top: 40px;
+	position: relative;
+}
+.bodyer2 .w1200 span{
+	color: #fd846f;
+}
+.bodyer2 .ze{
+	height: 5px;
+	width: 100px;
+	background: #fff;
+	position: absolute;
+	top:20px;
+}
+.bodyer3 .w1200{
+	height: 780px;
+	position: relative;
+}
+.bodyer3_top{
+	position: relative;
+}
+.bodyer3_top div:first-child{
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	height: 22px;
+	width: 32px;
+	position: absolute;
+	top: 10px;
+}
+.bodyer3_top div:nth-of-type(2){
+	font-size: 22px;
+	padding: 0 20px;
+	cursor: pointer;
+}
+.bodyer3_top div:last-child{
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	height: 22px;
+	width: 32px;
+	position: absolute;
+	right: -4px;
+	top: -1px;
+}
+.bodyer3_left ul{
+	margin-left: 20px;
+	margin-top: 4px;
+	height: 0;
+	border-left: 1px solid #666;
+	padding-left: 20px;
+	overflow: hidden;
+	transition: all 0.2s;
+}
+.bodyer3_left ul li{
+	cursor: pointer;
+	margin-top: 20px;
+}
+.bodyer3_left ul li:hover{
+	color:#fd846f;
+}
+.bodyer3_right{
+	width: 976px;
+	margin-top: 30px;
+	position: absolute;
+	right: 0;
+}
+.bodyer3_right1_left div:nth-of-type(1){
+	font-size: 18px;
+	color: #747474;
+}
+.bodyer3_right1_left div:nth-of-type(1) span{
+	font-size: 12px;
+}
+.bodyer3_right1_left div:nth-of-type(2) hr{
+	display: inline-block;
+	border:0.5px solid #666;
+	width: 290px;
+	margin-bottom: 10px;
+}
+.bodyer3_right1_left div:nth-of-type(2){
+	margin-bottom: 20px;
+}
+.bodyer3_right1_left div:nth-of-type(3){
+	width: 686px;
+	text-align: justify;
+	line-height: 26px;
+	color: #666;
+	margin-bottom: 50px;
+}
+.bodyer3_right1_left div:nth-of-type(4){
+	font-size: 18px;
+	color: #747474;
+	
+}
+.bodyer3_right1_left div:nth-of-type(4) span{
+	font-size: 12px;
+}
+.bodyer3_right1_left div:nth-of-type(5) hr{
+	display: inline-block;
+	border:0.5px solid #666;
+	width: 142px;
+	margin-bottom: 10px;
+}
+.bodyer3_right1_left div:nth-of-type(5){
+	margin-bottom: 20px;
+}
+.bodyer3_right1_left div:nth-of-type(6){
+	width: 686px;
+	text-align: justify;
+	line-height: 26px;
+	color: #666;
+	margin-bottom: 50px;
+}
+.bodyer3_right2{
+	margin-bottom: 34px;
+	
+}
+.bodyer3_right2 div:nth-of-type(1){
+	font-size: 18px;
+	color: #747474;
+}
+.bodyer3_right2 div:nth-of-type(1) span{
+	font-size: 12px;
+}
+.bodyer3_right2 div:nth-of-type(2) hr{
+	display: inline-block;
+	border:0.5px solid #666;
+	width: 956px;
+	margin-bottom: 10px;
+}
+.bodyer3_right2 div:nth-of-type(2){
+	margin-bottom: 20px;
+}
+.bodyer3_right21{
+	width: 976px;
+	position: relative;
+	height: 262px;
+}
+.bodyer3_right21 img{
+	vertical-align: top;
+	margin-left: 69px;
+}
+.bodyer3_right21 img:first-child{
+	margin-left: 0;
+}
+
+.bodyer3_right21>div{
+	position: absolute;
+}
+.bodyer3_right3{
+	width: 114px;
+	margin: 0 auto;
+}
+.bodyer3_right3>div{
+	display: inline-block;
+}
+.bodyer3_right3>div:first-child,.bodyer3_right3>div:last-child{
+	border: 1px solid #999;
+	width: 30px;
+	height: 24px;
+	text-align: center;
+	font-size: 18px;
+}
+.bodyer3_right3>div:nth-of-type(2),.bodyer3_right3>div:nth-of-type(3){
+	padding:0 4px ;
+}
+
+
+.footer{
+	background: #666;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 54px;
+}
